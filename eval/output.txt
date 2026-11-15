@@ -1,0 +1,14 @@
+- Who proposed the relational model and in which year?    conf=0.3840000033378601 hit@3
+- What does a foreign key do?                             conf=0.460999995470047 hit@3
+- What does Third Normal Form remove?                     conf=0.5550000071525574 hit@3
+- Why can over-normalization hurt performance?            conf=0.5199999809265137 hit@3
+- What does the D in ACID stand for?                      conf=0.3479999899864197 hit@3
+- What is the difference between COMMIT and ROLLBACK?     conf=0.4909999966621399 hit@3
+- When do deadlocks occur?                                conf=0.4269999861717224 hit@3
+- What is the capital of France?                          conf=0.08100000023841858 refused (correct)
+- Who won the football world cup in 2022?                 conf=-0.02500000037252903 refused (correct)
+
+SUMMARY {
+  "hit@3": "7/7",
+  "guard_accuracy": "2/2"
+}

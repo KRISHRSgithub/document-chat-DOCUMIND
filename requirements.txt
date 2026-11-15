@@ -1,0 +1,16 @@
+streamlit
+python-dotenv
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+rank-bm25
+pypdf
+# LLM provider (Ollama is free & local; install the app and run: ollama pull llama3.2)
+langchain-ollama
+# Optional providers (uncomment the one you use):
+# langchain-openai          # needs OPENAI_API_KEY
+# langchain-google-genai    # needs GOOGLE_API_KEY
+# Dev / testing:  pip install pytest

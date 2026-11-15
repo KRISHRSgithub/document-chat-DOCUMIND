@@ -1,0 +1,55 @@
+[
+  {
+    "question": "Who proposed the relational model and in which year?",
+    "expected_keywords": ["Codd", "1970"],
+    "expected_page": 1
+  },
+  {
+    "question": "What does a foreign key do?",
+    "expected_keywords": ["link", "primary key"],
+    "expected_page": 1
+  },
+  {
+    "question": "What does Third Normal Form remove?",
+    "expected_keywords": ["transitive"],
+    "expected_page": 2
+  },
+  {
+    "question": "Why can over-normalization hurt performance?",
+    "expected_keywords": ["join"],
+    "expected_page": 2
+  },
+  {
+    "question": "What does the D in ACID stand for?",
+    "expected_keywords": ["Durability"],
+    "expected_page": 3
+  },
+  {
+    "question": "What is the difference between COMMIT and ROLLBACK?",
+    "expected_keywords": ["permanent", "undo"],
+    "expected_page": 3
+  },
+  {
+    "question": "When do deadlocks occur?",
+    "expected_keywords": ["wait", "lock"],
+    "expected_page": 3
+  },
+  {
+    "question": "What is the capital of France?",
+    "out_of_scope": true
+  },
+  {
+    "question": "Who won the football world cup in 2022?",
+    "out_of_scope": true
+  },
+  {
+  "question":"What is Transaction Management in DBMS ?",
+  "expected_keywords": [" data integrity", "consistency even in case of system failures"],
+  "expected_page": 1
+  },
+  {
+  "question": "Describe the ACID Properties ?",
+  "expected_keywords": ["Atomicity", "Consistency"," Isolation","Durability"],
+  "expected_page": 1
+  }
+]
