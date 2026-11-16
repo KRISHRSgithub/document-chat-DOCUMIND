@@ -1,4 +1,4 @@
-DocuMind – PDF Question-Answering Chatbot (RAG) | Python, LangChain, FAISS, BM25, Streamlit, Ollama, Gemini 
+##DocuMind – PDF Question-Answering Chatbot (RAG) | Python, LangChain, FAISS, BM25, Streamlit, Ollama, Gemini 
 
 • Built a retrieval-augmented (RAG) chatbot that answers questions from multiple PDFs with page-level citations, using hybrid retrieval: FAISS semantic search       plus BM25 keyword search merged by reciprocal rank fusion.
 
