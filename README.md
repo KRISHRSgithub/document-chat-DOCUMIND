@@ -1,7 +1,11 @@
 DocuMind – PDF Question-Answering Chatbot (RAG) | Python, LangChain, FAISS, BM25, Streamlit, Ollama, Gemini 
+
 • Built a retrieval-augmented (RAG) chatbot that answers questions from multiple PDFs with page-level citations, using hybrid retrieval: FAISS semantic search       plus BM25 keyword search merged by reciprocal rank fusion.
+
 • Added a similarity-based guard that refuses questions the documents cannot answer (2/2 off-topic test questions refused), a confidence indicator, and rewriting    of follow-up questions using chat history.
+
 • Wrote an evaluation script and pytest tests; on a hand-written 11-question test set, 9/9 answers included page citations and average keyword recall was 0.89       with a local Llama 3.2 model.
+
 • Built a Streamlit interface with multi-PDF filtering, summary and quiz generation, and switchable local (Ollama) or cloud (Gemini) LLMs; documented setup and      results in the README with a demo video.
 
 # DocuMind: chat with your PDFs (Python + LangChain)
