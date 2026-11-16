@@ -85,7 +85,7 @@ Hand-written test set: 9 in-scope and 2 off-topic questions on a 3-page sample P
 
 | Metric | Result |
 |---|---|
-| Hit@1 (right page ranked first) | __/9 |
+| Hit@1 (right page ranked first) | 9/9 |
 | Hit@3 | 9/9 |
 | Guard accuracy (off-topic refused) | 2/2 |
 | Avg keyword recall (Llama 3.2 via Ollama) | 0.89 |
